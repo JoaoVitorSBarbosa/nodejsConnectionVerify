@@ -1,0 +1,3 @@
+GOOGLE_SERVICE_ACCOUNT_EMAIL =  example@example.iam.gserviceaccount.com
+SHEETID = rwewew23r43254tg254h6354y54y24 (just aleatory words, hope this doesnt works)
+SCANSPERMINUTE = 0.03, will scan after 30minutes
