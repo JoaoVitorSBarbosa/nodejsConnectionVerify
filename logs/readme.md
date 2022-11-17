@@ -1,0 +1,1 @@
+Folder for logs when the computer doesnt have internet connection
