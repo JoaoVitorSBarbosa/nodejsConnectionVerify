@@ -67,9 +67,9 @@ const speedTest = async () => {
       const { ping, download, upload } = JSON.parse(stdout);
       response.result.ping = ping.toFixed(2).toString() + " ms";
       response.result.download =
-        (download).toFixed(2).toString() + " Mb/s";
+        (download/1000000).toFixed(2).toString() + " Mb/s";
       response.result.upload =
-        (upload).toFixed(2).toString() + " Mb/s";
+        (upload/100000).toFixed(2).toString() + " Mb/s";
       sheetManagement(response);
     }
   });
